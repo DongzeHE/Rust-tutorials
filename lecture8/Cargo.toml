@@ -1,0 +1,38 @@
+[package]
+name = "lecture8"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+
+[[bin]]
+name = "rc_example"
+path = "src/rc_example.rs"
+
+[[bin]]
+name = "refcell_example"
+path = "src/refcell_example.rs"
+
+[[bin]]
+name = "mock_msgr"
+path = "src/mock_msgr.rs"
+
+[[bin]]
+name = "cons_list"
+path = "src/cons_list.rs"
+
+[[bin]]
+name = "memory_leak"
+path = "src/memory_leak.rs"
+
+[[bin]]
+name = "tree"
+path = "src/tree.rs"
+
+[[bin]]
+name = "arc_example"
+path = "src/arc_example.rs"
+
+[dependencies]

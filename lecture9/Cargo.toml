@@ -1,0 +1,40 @@
+[package]
+name = "lecture9"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "blog_lib"
+path = "src/lib.rs"
+
+[[bin]]
+name = "averaged_collection"
+path = "src/averaged_collection.rs"
+
+[[bin]]
+name = "blog"
+path = "src/blog.rs"
+
+[[bin]]
+name = "box_trait_obj"
+path = "src/box_trait_obj.rs"
+
+[[bin]]
+name = "trait_obj"
+path = "src/trait_obj.rs"
+
+[[bin]]
+name = "data_behavior"
+path = "src/data_behavior.rs"
+
+[[bin]]
+name = "generic_trait"
+path = "src/generic_trait.rs"
+
+[[bin]]
+name = "trait_bound"
+path = "src/trait_bound.rs"
+
+[dependencies]

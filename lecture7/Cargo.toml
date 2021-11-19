@@ -1,0 +1,28 @@
+[package]
+name = "lecture7"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "box_example"
+path = "src/box_example.rs"
+
+[[bin]]
+name = "box_size"
+path = "src/box_size.rs"
+
+[[bin]]
+name = "con_list"
+path = "src/con_list.rs"
+
+[[bin]]
+name = "mybox"
+path = "src/mybox.rs"
+
+[[bin]]
+name = "arc_example"
+path = "src/arc_example.rs"
+
+[dependencies]

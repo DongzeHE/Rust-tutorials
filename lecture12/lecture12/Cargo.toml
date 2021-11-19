@@ -1,0 +1,22 @@
+[package]
+name = "lecture12"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "deckarative_macro"
+path = "src/1deckarative_macro.rs"
+
+[[bin]]
+name = "type_declarative_macro"
+path = "src/2type_declarative_macro.rs"
+
+[[bin]]
+name = "pancakes"
+path = "src/3pancakes.rs"
+
+[dependencies]
+hello_macro = { path = "../hello_macro" }
+hello_macro_derive = { path = "../hello_macro/hello_macro_derive" }

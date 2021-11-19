@@ -1,0 +1,38 @@
+[package]
+name = "lecture10"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "command_example"
+path = "src/6command_example.rs"
+
+
+[[bin]]
+name = "burger_builder"
+path = "src/7burger_builder.rs"
+
+[[bin]]
+name = "closure_example"
+path = "src/1closure_example.rs"
+
+[[bin]]
+name = "capture_immut_borrow"
+path = "src/2capture_immut_borrow.rs"
+
+[[bin]]
+name = "capture_by_mut"
+path = "src/3capture_by_mut.rs"
+
+[[bin]]
+name = "capture_by_move"
+path = "src/4capture_by_move.rs"
+
+[[bin]]
+name = "iterator"
+path = "src/5iterator.rs"
+
+
+[dependencies]

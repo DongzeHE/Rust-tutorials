@@ -1,0 +1,26 @@
+[package]
+name = "lecture11"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "spawn1"
+path = "src/spawn1.rs"
+
+[[bin]]
+name = "message_passing"
+path = "src/message_passing2.rs"
+
+[[bin]]
+name = "shared_mem"
+path = "src/shared_mem3.rs"
+
+[[bin]]
+name = "panthom_type"
+path = "src/panthom_type4.rs"
+
+
+
+[dependencies]
